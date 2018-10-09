@@ -19,6 +19,7 @@ class Counter extends Component {
             <img src={this.state.imageUrl} alt=""/>
             <span className="badge badge-primary m-2">{this.formatCount()}</span>
             <button class="btn btn-primary">Increment</button>
+            <button class="btn btn-primary">Increment</button>
             <button class="btn btn-danger">Increment</button>
             <button class="btn btn-success">Increment</button>
             <button class="btn btn-warning">Increment</button>
